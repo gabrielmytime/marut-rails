@@ -13,3 +13,35 @@
  *= require_tree .
  *= require_self
  */
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500,600,700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-text: #fff;
+  --clr-bg-dark: #12153c;
+  --clr-bg-light: #f2f2f2;
+  --clr-accent: #ffe25b;
+  --clr-accent-2: #ebce09;
+  --clr-accent-3: #d0b608;
+}
+
+.buton {
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 10px;
+  background: var(--clr-bg-dark);
+  padding: 10px 10px 10px;
+  color: var(--clr-text);
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.buton:hover,
+.buton:focus {
+  background-color: var(--clr-accent-2);
+  color: var(--clr-bg-dark);
+  text-decoration: none;
+  transition: ease-in 0.2s;
+}

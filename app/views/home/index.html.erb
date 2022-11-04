@@ -1,2 +1,21 @@
-<h1 class="title">BODY CONTENT</h1>
-<p>Tasdhakjdhaskljdaskljdakjsd asjdhaskjdh kjdaks hdaksjd hakshd kalshd aksjd hkajsh dklash dlkas dhkash</p>
+<%= render partial:'banner' %>
+<div class="about-preview">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <h2>Despre noi</h2>
+        <p>Din anul 2012, din județul Cluj, împlinim visurile clienților
+        noștri: transformăm o casă într-un cămin. Acum, la a doua
+        generație…</p>
+        <a class="btn buton" href="{% url 'about' %}">Citește mai mult</a>
+      </div>
+      <div class="col-md-7">
+        <%= image_tag "aboutPreview.png", :class => "img-responsive rounded about-preview-image" %>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <h1 class="title">BODY CONTENT</h1>
+  <p>Tasdhakjdhaskljdaskljdakjsd asjdhaskjdh kjdaks hdaksjd hakshd kalshd aksjd hkajsh dklash dlkas dhkash</p>
+</div>

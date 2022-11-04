@@ -1,0 +1,15 @@
+.navbar {
+  background-color: var(--clr-bg-dark);
+  width: 100%;
+}
+.nav-link {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+.nav-link:hover, .nav-link:focus {
+  color: var(--clr-accent-2);
+}
+.logo {
+  width: 75px;
+}
